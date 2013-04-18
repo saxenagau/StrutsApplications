@@ -1,0 +1,11 @@
+package com.dss.form;
+
+import org.apache.struts.action.ActionForm;
+
+public class OperationForm extends ActionForm{
+	
+	int op1;
+	int op2;
+	String button;
+
+}

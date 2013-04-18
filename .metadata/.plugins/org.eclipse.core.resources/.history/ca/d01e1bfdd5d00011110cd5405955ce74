@@ -1,0 +1,61 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<%@ taglib prefix="html" uri="/WEB-INF/tld/struts-html.tld" %>
+<%@ taglib prefix="bean" uri="/WEB-INF/tld/struts-bean.tld" %>
+<%@ taglib prefix="tiles" uri="/WEB-INF/tld/struts-tiles.tld" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+02.
+<head>
+03.
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+04.
+<title><tiles:getAsString name="title" ignore="true" /></title>
+05.
+</head>
+06.
+<body>
+07.
+<table border="1" cellpadding="2" cellspacing="2" align="center">
+08.
+<tr>
+09.
+<td height="20%" colspan="2">
+10.
+<tiles:insert attribute="header" ignore="true" />
+11.
+</td>
+12.
+</tr>
+13.
+<tr>
+14.
+<td width="20%" height="250">
+15.
+<tiles:insert attribute="menu" />
+16.
+</td>
+17.
+<td>
+18.
+<tiles:insert attribute="body" />
+19.
+</td>
+20.
+</tr>
+21.
+<tr>
+22.
+<td height="20%" colspan="2">
+23.
+<tiles:insert attribute="footer" />
+24.
+</td>
+25.
+</tr>
+26.
+</table>
+27.
+</body>
+28.
+</html>

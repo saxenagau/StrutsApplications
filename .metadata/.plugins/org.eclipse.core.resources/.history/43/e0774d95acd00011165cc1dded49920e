@@ -1,0 +1,11 @@
+package com.cgs.dao;
+
+import java.sql.ResultSet;
+
+public interface StudentDAO {
+
+	String add(String sid, String sname, int smarks);
+
+	ResultSet search(String sid);
+
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 1.3//EN"
+       "http://struts.apache.org/dtds/tiles-config_1_3.dtd">
+<tiles-definitions>
+	<definition name="welcomeDef" template="/jsp/layout.jsp">
+		<put name="header" value="/jsp/header.jsp"></put>
+		<put name="menu" value="/jsp/menu.jsp"></put>
+		<put name="body" value="/jsp/welcome.jsp"></put>
+		<put name="footer" value="/jsp/footer.jsp"></put>
+	</definition>
+	
+	<definition name="addDef" extends="welcomeDef">
+		<put name="body" value="/jsp/addform.jsp"></put>
+	</definition>
+	
+	<definition name="searchDef" extends="welcomeDef">
+		<put name="body" value="/jsp/searchform.jsp"></put>
+	</definition>
+	
+	<definition name="deleteDef" extends="welcomeDef">
+		<put name="body" value="/jsp/deleteform.jsp"></put>
+	</definition>
+	
+	<definition name="seccessDef" extends="welcomeDef">
+		<put name="body" value="/jsp/success.jsp"></put>
+	</definition>
+	
+	<definition name="failureDef" extends="welcomeDef">
+		<put name="body" value="/jsp/failure.jsp"></put>
+	</definition>
+	
+	<definition name="existedDef" extends="welcomeDef">
+		<put name="body" value="/jsp/existed.jsp"></put>
+	</definition>
+	
+	<definition name="notexistedDef" extends="welcomeDef">
+		<put name="body" value="/jsp/nonexisted.jsp"></put>
+	</definition>
+	
+	<definition name="displayDef" extends="welcomeDef">
+		<put name="body" value="/jsp/display.jsp"></put>
+	</definition>
+</tiles-definitions>       

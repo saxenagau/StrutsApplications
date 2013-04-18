@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.sun.corba.se.spi.orbutil.fsm.ActionBase"/>
+<fullyQualifiedTypeName name="com.struts.action.HelloWorldAction"/>
+<fullyQualifiedTypeName name="com.struts.form.HelloWorldForm"/>
+<fullyQualifiedTypeName name="com.struts.form.MessageForm"/>
+<fullyQualifiedTypeName name="com.login.form.LoginForm"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="com.cgs.dao.StudentDAO"/>
+<fullyQualifiedTypeName name="com.cgs.action.StudentDeleteAction"/>
+<fullyQualifiedTypeName name="com.cgs.dao.StudentDAOImpl"/>
+<fullyQualifiedTypeName name="com.sun.corba.se.pept.transport.Connection"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="java.sql.Statement"/>
+<fullyQualifiedTypeName name="java.sql.DriverManager"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="org.apache.struts.action.Action"/>
+<fullyQualifiedTypeName name="javax.xml.validation.Validator"/>
+<fullyQualifiedTypeName name="org.apache.commons.validator.Validator"/>
+<fullyQualifiedTypeName name="org.apache.struts.validator.ValidatorForm"/>
+<fullyQualifiedTypeName name="java.lang.AbstractMethodError"/>
+<fullyQualifiedTypeName name="org.apache.struts.action.ActionErrors"/>
+<fullyQualifiedTypeName name="org.apache.struts.action.ActionMessage"/>
+<fullyQualifiedTypeName name="com.dss.form.LoginActionForm"/>
+<fullyQualifiedTypeName name="org.apache.struts.action.ActionForward"/>
+<fullyQualifiedTypeName name="org.apache.struts.action.ActionMapping"/>
+<fullyQualifiedTypeName name="org.apache.struts.action.ActionForm"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="org.apache.struts.validator.DynaValidatorForm"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="com.dss.form.RegistrationActionForm"/>
+<fullyQualifiedTypeName name="org.apache.struts.action.DynaActionForm"/>
+</qualifiedTypeNameHistroy>

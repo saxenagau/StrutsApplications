@@ -1,0 +1,12 @@
+package com.cgs.action;
+
+import org.apache.struts.action.Action;
+import org.apache.struts.action.ActionForward;
+
+public class StudentAddAction extends Action{
+	
+	public ActionForward execute(){
+		return null;
+	}
+
+}

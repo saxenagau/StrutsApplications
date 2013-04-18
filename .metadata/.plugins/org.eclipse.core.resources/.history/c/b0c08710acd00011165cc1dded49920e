@@ -1,0 +1,8 @@
+package com.cgs.action;
+
+import org.apache.struts.action.Action;
+
+public class StudentDeleteAction extends Action{
+	String status = null;
+	
+}

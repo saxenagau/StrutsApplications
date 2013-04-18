@@ -1,0 +1,7 @@
+package com.dss.dao;
+
+public interface ProductDAO {
+
+	String delete(String pid);
+
+}

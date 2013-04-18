@@ -1,0 +1,17 @@
+package com.dss.dao;
+
+import java.sql.ResultSet;
+
+public class ProductDAO {
+
+	public String add(String pid, String pname, String pcost) {
+		
+		return null;
+	}
+
+	public ResultSet search(String pid, String pname, String pcost) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

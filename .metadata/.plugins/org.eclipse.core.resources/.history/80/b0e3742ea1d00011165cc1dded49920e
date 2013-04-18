@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<%@ taglib prefix="html" uri="/WEB-INF/tld/struts-html.tld" %>
+<%@ taglib prefix="bean" uri="/WEB-INF/tld/struts-bean.tld" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html:html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<html:form method="get" action="add.do">
+	<pre>
+		<bean:message key="sid"/><html:text property="sid"></html:text>
+		<bean:message key="sname"/><html:text property="sname"></html:text>
+		<bean:message key="smarks"/><html:text property="smarks"></html:text>					
+	</pre>		
+</html:form>
+</body>
+</html:html>

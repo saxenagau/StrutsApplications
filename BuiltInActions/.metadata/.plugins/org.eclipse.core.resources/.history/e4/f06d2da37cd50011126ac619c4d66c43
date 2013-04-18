@@ -1,0 +1,7 @@
+package com.dss.action;
+
+import org.apache.struts.actions.LookupDispatchAction;
+
+public class OperationAction extends LookupDispatchAction{
+
+}

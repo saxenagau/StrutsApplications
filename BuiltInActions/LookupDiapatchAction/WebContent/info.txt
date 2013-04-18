@@ -1,0 +1,6 @@
+Lookup Dispatch Action is child of Dispatch Action.
+
+It is basically used if we have multiple buttons on
+same form and we want to perform different action.
+For this we want to use only one Action class. So it 
+is the extended version of Dispatch Action.

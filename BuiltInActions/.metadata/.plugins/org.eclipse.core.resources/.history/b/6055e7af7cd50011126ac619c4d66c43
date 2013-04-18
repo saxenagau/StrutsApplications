@@ -1,0 +1,15 @@
+package com.dss.action;
+
+import java.util.Map;
+
+import org.apache.struts.actions.LookupDispatchAction;
+
+public class OperationAction extends LookupDispatchAction{
+
+	
+	protected Map getKeyMethodMap() {
+		
+		return null;
+	}
+
+}

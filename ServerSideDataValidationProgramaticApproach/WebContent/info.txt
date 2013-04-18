@@ -1,0 +1,4 @@
+Context root = SSDVPA
+
+Place all the properties files under "src" folder bcuz while build
+these files automatically placed in classes folder.

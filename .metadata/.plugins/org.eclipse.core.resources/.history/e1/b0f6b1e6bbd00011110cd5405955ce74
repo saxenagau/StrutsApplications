@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC
+       "-//Apache Software Foundation//DTD Struts Configuration 1.3//EN"
+       "http://struts.apache.org/dtds/struts-config_1_3.dtd">
+
+<struts-config>
+	<form-beans>
+		<form-bean name="addForm" type="org.apache.struts.action.DynaActionForm">
+			<form-property name="sid" type="java.lang.String"></form-property>
+			<form-property name="sname" type="java.lang.String"></form-property>
+			<form-property name="smarks" type="java.lang.Integer"></form-property>
+		</form-bean>
+		
+		<form-bean name="searchForm" type="org.apache.struts.action.DynaActionForm">
+			<form-property name="sid" type="java.lang.String"></form-property>
+		</form-bean>
+		
+		<form-bean name="deleteForm" type="org.apache.struts.action.DynaActionForm">
+			<form-property name="sid" type="java.lang.String"></form-property>
+		</form-bean>
+	</form-beans>
+	
+	<global-forwards>
+		<forward name="success" path="successdef"></forward>
+		<forward name="failure" path="failure"></forward>
+		<forward name="existed" path="existeddef"></forward>
+	</global-forwards>
+</struts-config>      

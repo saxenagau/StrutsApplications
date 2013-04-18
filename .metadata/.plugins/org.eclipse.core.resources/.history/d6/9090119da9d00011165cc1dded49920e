@@ -1,0 +1,7 @@
+package com.cgs.action;
+
+import org.apache.struts.action.Action;
+
+public class StudentSearchAction extends Action{
+
+}

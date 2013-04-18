@@ -1,0 +1,22 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<%@ taglib prefix="html" uri="/WEB-INF/tld/struts-html.tld" %>
+<%@ taglib prefix="bean" uri="/WEB-INF/tld/struts-bean.tld" %>    
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html:html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Arithmetic Operations</title>
+</head>
+<body bgcolor="lightgreen">
+<center><b><font size="7">Arithmetic Operations</font></b></center><br><br>
+<html:form method="post" action="op.do" ></html:form>
+<b><font size="4">
+<pre>
+	<bean:message key="op1"/> : <html:text property="op1"/><br>
+	<bean:message key="op2"/> : <html:text property="op2"/><br>
+</pre>
+</font>
+</b>
+</body>
+</html:html>

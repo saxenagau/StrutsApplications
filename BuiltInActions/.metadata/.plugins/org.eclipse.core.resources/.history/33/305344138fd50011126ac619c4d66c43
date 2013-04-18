@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC
+       "-//Apache Software Foundation//DTD Struts Configuration 1.3//EN"
+       "http://struts.apache.org/dtds/struts-config_1_3.dtd">
+ <struts-config>
+ 	<form-beans>
+ 		<form-bean name="operationForm" type="org.apache.struts.action.DynaActionForm">
+ 			<form-property name="op1" type="java.lang.Integer"></form-property>
+ 			<form-property name="op2" type="java.lang.Integer"></form-property>
+ 			<form-property name="button" type="java.lang.String"></form-property>
+ 		</form-bean>
+ 	</form-beans>
+ 	
+ 	<action-mappings>
+ 		<action path="/op" name="operationForm" type="com.dss.action.OperationAction" parameter="add,sub,mul">
+			<forward name="result" path="/jsp/result.jsp"/>
+ 		</action>
+ 	</action-mappings>
+ 	<message-resources parameter="abc"/>
+ 
+ </struts-config>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC
+       "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN"
+       "http://struts.apache.org/dtds/struts-config_1_2.dtd">       
+ 
+<struts-config>
+	<form-beans>
+		<!-- <form-bean name="regForm" type="com.dss.form.RegistrationActionForm"> -->
+		<form-bean name="regForm" type="org.apache.struts.validator.DynaValidatorForm">
+			<form-property name="uname" type="java.lang.String"/>
+			<form-property name="upwd" type="java.lang.String"/>
+			<form-property name="uage" type="java.lang.Integer"/>
+			<!-- <form-property name="udob" type="java.lang.String"/> -->
+			<!-- <form-property name="udob" type="java.util.Date"/> -->
+			<form-property name="udob" type="java.sql.Date"/>
+			<form-property name="uemail" type="java.lang.String"/>
+			<form-property name="umobile" type="java.lang.String"/>
+		</form-bean>
+	</form-beans>
+	
+	<action-mappings>
+		<action path="/reg" name="regForm" type="com.dss.action.RegistrationAction" validate="true" input="/jsp/index.jsp">
+			<forward name="success" path="/jsp/success.jsp"/>
+			<forward name="failure" path="/jsp/failure.jsp"/>
+		</action>
+	</action-mappings>
+	
+	<message-resources parameter="registration"></message-resources>
+	
+	<plug-in className="org.apache.struts.validator.ValidatorPlugIn">
+	        <set-property property="pathnames" 
+	                      value="/org/apache/struts/validator/validator-rules.xml,
+	                             /WEB-INF/validation.xml"/>
+    </plug-in>
+</struts-config>

@@ -1,0 +1,81 @@
+package com.cgs.dao;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+
+
+public class StudentDAOImpl implements StudentDAO{
+ static Connection connection;
+ static Statement statement;
+ static ResultSet resultSet;
+ 		String status = null;
+ 		
+	public StudentDAOImpl() {
+		try {
+			Class.forName("");
+			connection = DriverManager.getConnection("");
+			statement = connection.createStatement();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public ResultSet getStudent(String sid){
+		
+		try {
+			resultSet = statement.executeQuery("select * from student where sid ='"+sid+"'");
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		return resultSet;
+	}
+
+	@Override
+	public String add(String sid, String sname, int smarks) {
+		try {
+			resultSet = getStudent(sid);
+			boolean b = resultSet.next();
+			if(b == true){
+				status = "existed";
+			}
+			else{
+				int rowCount = statement.executeUpdate("insert into student values('"+sid+"','"+sname+"','"+smarks+"')");
+				if(rowCount == 1){
+					status = "success";
+				}
+				else{
+					status = "failure";
+				}
+			}
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return status;
+	}
+
+	@Override
+	public ResultSet search(String sid) {
+		
+		return getStudent(sid);
+	}
+
+	@Override
+	public String delete(String sid) {
+		
+		try {
+			resultSet = getStudent(sid);
+			boolean b = resultSet.next();
+			if(b == true)
+			
+		} catch (Exception e) {
+
+		}
+		return status;
+	}
+
+}

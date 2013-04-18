@@ -1,0 +1,17 @@
+INDEX VERSION 1.126
+C:\Documents and Settings\gsaxena\Desktop\new_DT\Prac\Struts\BuiltInActions\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2459341575.index
+\ForwardAction
+C:\Documents and Settings\gsaxena\Desktop\new_DT\Prac\Struts\BuiltInActions\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\352263436.index
+\IncludeAction
+C:\Documents and Settings\gsaxena\Desktop\new_DT\Prac\Struts\BuiltInActions\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\478776226.index
+\DispatchAction
+C:\Documents and Settings\gsaxena\Desktop\new_DT\Prac\Struts\BuiltInActions\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\177694869.index
+\DispatchAction
+C:\Documents and Settings\gsaxena\Desktop\new_DT\Prac\Struts\BuiltInActions\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\175921137.index
+\DispatchAction
+C:\Documents and Settings\gsaxena\Desktop\new_DT\Prac\Struts\BuiltInActions\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3748413056.index
+\LookupDiapatchAction
+C:\Documents and Settings\gsaxena\Desktop\new_DT\Prac\Struts\BuiltInActions\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2422300089.index
+\MappingDispatchAction
+C:\Documents and Settings\gsaxena\Desktop\new_DT\Prac\Struts\BuiltInActions\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1166302474.index
+\EventDispatchAction

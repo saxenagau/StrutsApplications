@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC
+       "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN"
+       "http://struts.apache.org/dtds/struts-config_1_2.dtd">       
+
+<struts-config>
+	<form-beans>
+		<form-bean name="loginActionForm" type="com.dss.form.LoginActionForm"></form-bean>
+	</form-beans>
+	
+	<action-mappings>
+		<action path="/login" name="loginActionForm" type="com.dss.action.LoginAction" validate="true" input="/jsp/index.jsp">
+			<forward name="success" path="/jsp/success.jsp"></forward>
+			<forward name="failure" path="/jsp/failure.jsp"></forward>
+		</action>
+	</action-mappings>
+	<message-resources parameter="message"></message-resources>
+</struts-config>      

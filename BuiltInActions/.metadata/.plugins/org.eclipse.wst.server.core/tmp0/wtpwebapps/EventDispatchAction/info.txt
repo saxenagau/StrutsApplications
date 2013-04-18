@@ -1,0 +1,12 @@
+In this EventDispatchAction Example to work properly you
+need to pass the parameter along with the action value.
+Ex
+
+<html:form action="/op.do?add">
+.....
+.....
+</html:form>
+
+in the above example the name after the "?" sign is the 
+parameter name which you are passing along with the action
+value so that particular method get executed.

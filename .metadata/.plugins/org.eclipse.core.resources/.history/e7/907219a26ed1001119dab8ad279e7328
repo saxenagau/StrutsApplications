@@ -1,0 +1,11 @@
+package com.cgs.form;
+
+public class RegistrationForm {
+	
+	String name;
+	String userid;
+	String password;
+	int age;
+	String address;
+
+}

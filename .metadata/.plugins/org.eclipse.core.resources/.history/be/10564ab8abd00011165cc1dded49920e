@@ -1,0 +1,44 @@
+package com.cgs.action;
+
+import java.sql.ResultSet;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.apache.struts.action.Action;
+import org.apache.struts.action.ActionForm;
+import org.apache.struts.action.ActionForward;
+import org.apache.struts.action.ActionMapping;
+import org.apache.struts.action.DynaActionForm;
+
+import com.cgs.dao.StudentDAO;
+import com.cgs.dao.StudentDAOImpl;
+
+public class StudentSearchAction extends Action{
+	String status = null;
+	public ActionForward execute(ActionMapping mapping,ActionForm form, HttpServletRequest request, HttpServletResponse response){
+		try{
+			DynaActionForm daf = (DynaActionForm)form;
+			String sid = (String)daf.get("sid");
+			StudentDAO std = new StudentDAOImpl();
+			ResultSet rs = std.search(sid);
+			boolean b = rs.next();
+			if(b == true){
+				request.setAttribute("sid", rs.getString(1));
+				request.setAttribute("sname", rs.getString(2));
+				request.setAttribute("smarks", rs.getInt(3));
+				status = "display";
+			}
+			else{
+				status = "not existed";
+			}
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		
+		
+		return mapping.findForward(status);
+	}
+}

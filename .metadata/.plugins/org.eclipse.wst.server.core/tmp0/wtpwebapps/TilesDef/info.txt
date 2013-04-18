@@ -1,0 +1,13 @@
+1. For successfully working of tiles definitaion you must configure
+"chainConfig" init parameter with its value as "org/apache/struts/tiles/chain-config.xml"
+in web.xml file. Bcoz it makes the tiles engine ready so
+when you request for the particular definition it will able 
+to process your request.
+
+2. You need to configure "config" init parameter with its value 
+"/WEB-INF/struts-config.xml"also by using that parameter 
+container will load and instantiate all necessary
+module configured by you in struts-config.xml file.
+ 
+3. Its mandatory to configure <load-on-startup> parameter to work with
+tiles so make sure you have configured that parameter as well.

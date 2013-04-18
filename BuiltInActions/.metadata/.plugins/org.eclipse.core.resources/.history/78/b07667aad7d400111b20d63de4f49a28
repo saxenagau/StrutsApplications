@@ -1,0 +1,5 @@
+package com.dss.dao;
+
+public class ProductDAO {
+
+}

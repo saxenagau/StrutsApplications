@@ -1,0 +1,7 @@
+INDEX VERSION 1.122+C:\Documents and Settings\gsaxena\Desktop\new_DT\Prac\Struts\BuiltInActions\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1799108441.index
+2740480774.index
+33990736.index
+3815403643.index
+3838810064.index
+1469268618.index

@@ -1,0 +1,7 @@
+package com.cgs.dao;
+
+public interface StudentDAO {
+
+	String add(String sid, String sname, int smarks);
+
+}

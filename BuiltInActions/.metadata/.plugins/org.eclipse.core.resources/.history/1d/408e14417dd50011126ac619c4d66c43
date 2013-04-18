@@ -1,0 +1,30 @@
+package com.dss.action;
+
+import java.util.Map;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.apache.struts.action.ActionForm;
+import org.apache.struts.action.ActionForward;
+import org.apache.struts.action.ActionMapping;
+import org.apache.struts.action.DynaActionForm;
+import org.apache.struts.actions.LookupDispatchAction;
+
+public class OperationAction extends LookupDispatchAction{
+
+	public ActionForward add(ActionMapping mapping,ActionForm form,HttpServletRequest request,HttpServletResponse response) throws Exception{
+		
+		DynaActionForm daf = (DynaActionForm)form;
+		int val1 = (Integer)daf.get("op1");
+		int val2 = (Integer)daf.get("op2");
+		
+		request.setAttribute("operation", "Addition")
+		return null;
+	}
+	protected Map<String,String> getKeyMethodMap() {
+		
+		return null;
+	}
+
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC
+       "-//Apache Software Foundation//DTD Struts Configuration 1.3//EN"
+       "http://struts.apache.org/dtds/struts-config_1_3.dtd">
+
+<struts-config>
+	<form-beans>
+		<form-bean name="addForm" type="org.apache.struts.action.DynaActionForm">
+			<form-property name="sid" type="java.lang.String"></form-property>
+			<form-property name="sname" type="java.lang.String"></form-property>
+			<form-property name="smarks" type="java.lang.Integer"></form-property>
+		</form-bean>
+		
+		<form-bean name="searchForm" type="org.apache.struts.action.DynaActionForm">
+			<form-property name="sid" type="java.lang.String"></form-property>
+		</form-bean>
+		
+		<form-bean name="deleteForm" type="org.apache.struts.action.DynaActionForm">
+			<form-property name="sid" type="java.lang.String"></form-property>
+		</form-bean>
+	</form-beans>
+	
+	<global-forwards>
+		<forward name="success" path="successdef"></forward>
+		<forward name="failure" path="failuredef"></forward>
+		<forward name="existed" path="existeddef"></forward>
+		<forward name="notexisted" path="notexisteddef"></forward>
+		<forward name="display" path="displaydef"></forward>
+	</global-forwards>
+	
+	<action-mappings>
+		<action path="/welcome" forward="welcomedef"/>
+		<!-- <action path="/addlink" forward="adddef"/>
+		<action path="/search" forward="searchdef"/>
+		<action path="/delete" forward="deletedef"/>
+		<action path="/add" type="com.cgs.action.StudentAddAction"/>
+		<action path="/search" type="com.cgs.action.StudentSearchAction"/>
+		<action path="/delete" type="com.cgs.action.StudentDeleteAction"/> -->		
+	</action-mappings>
+	
+	<controller bufferSize="4096" processorClass="org.apache.struts.tiles.TilesRequestProcessor"/>
+	
+	<message-resources parameter="student"/>
+	<plug-in className="org.apache.struts.tiles.TilesPlugin" >
+		<set-property property="definitions-config"
+		value="/WEB-INF/tiles-defs.xml"/>
+	</plug-in>
+</struts-config>      

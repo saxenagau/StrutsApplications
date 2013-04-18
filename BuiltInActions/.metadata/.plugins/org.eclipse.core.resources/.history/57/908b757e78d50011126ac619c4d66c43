@@ -1,0 +1,7 @@
+Dispatch Action is basically used for the processing of 
+multiple hyperlinks from same ActionClass.
+
+or 
+
+We can use only a single Action Class for processing
+multiple hyperlinks action 

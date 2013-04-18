@@ -1,0 +1,35 @@
+INDEX VERSION 1.126
+C:\Documents and Settings\gsaxena\Desktop\new_DT\Prac\Struts\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3855603284.index
+\ServerSideDataValidationDeclarativeApproach
+C:\Documents and Settings\gsaxena\Desktop\new_DT\Prac\Struts\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1776566187.index
+\DynaActionApp
+C:\Documents and Settings\gsaxena\Desktop\new_DT\Prac\Struts\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2260840196.index
+\DynamicFormBean
+C:\Documents and Settings\gsaxena\Desktop\new_DT\Prac\Struts\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1350578336.index
+\ServerSideDataValidationProgramaticApproach
+C:\Documents and Settings\gsaxena\Desktop\new_DT\Prac\Struts\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2283818963.index
+\ServerSideDataValidationProgramaticApproach
+C:\Documents and Settings\gsaxena\Desktop\new_DT\Prac\Struts\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2652358600.index
+\TilesDef
+C:\Documents and Settings\gsaxena\Desktop\new_DT\Prac\Struts\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2830615768.index
+\HelloWorld
+C:\Documents and Settings\gsaxena\Desktop\new_DT\Prac\Struts\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4007806187.index
+\LoginApp
+C:\Documents and Settings\gsaxena\Desktop\new_DT\Prac\Struts\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3651596531.index
+\Tiles
+C:\Documents and Settings\gsaxena\Desktop\new_DT\Prac\Struts\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3115327477.index
+\HelloWorld
+C:\Documents and Settings\gsaxena\Desktop\new_DT\Prac\Struts\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2115239686.index
+\Tiles
+C:\Documents and Settings\gsaxena\Desktop\new_DT\Prac\Struts\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2229601792.index
+\TilesDef
+C:\Documents and Settings\gsaxena\Desktop\new_DT\Prac\Struts\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1354364016.index
+\TilesApp
+C:\Documents and Settings\gsaxena\Desktop\new_DT\Prac\Struts\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\911623532.index
+\TilesApp
+C:\Documents and Settings\gsaxena\Desktop\new_DT\Prac\Struts\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2067682159.index
+\UILoginApp
+C:\Documents and Settings\gsaxena\Desktop\new_DT\Prac\Struts\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2994057418.index
+\Example7
+C:\Documents and Settings\gsaxena\Desktop\new_DT\Prac\Struts\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2317031430.index
+\HelloWorld

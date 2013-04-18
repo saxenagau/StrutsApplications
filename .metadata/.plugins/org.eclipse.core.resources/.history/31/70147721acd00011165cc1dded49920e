@@ -1,0 +1,11 @@
+package com.cgs.action;
+
+import org.apache.struts.action.Action;
+import org.apache.struts.action.ActionForward;
+
+public class StudentDeleteAction extends Action{
+	String status = null;
+	public ActionForward execute(){
+		return null;
+	}
+}

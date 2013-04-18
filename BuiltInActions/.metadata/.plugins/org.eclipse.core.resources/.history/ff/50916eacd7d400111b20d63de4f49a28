@@ -1,0 +1,10 @@
+package com.dss.dao;
+
+public class ProductDAO {
+
+	public String add(String pid, String pname, String pcost) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
